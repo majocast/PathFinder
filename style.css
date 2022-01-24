@@ -5,3 +5,44 @@ body {
 #projectTitle {
   text-align: center;
 }
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.cell {
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+}
+
+.cell-1 {
+  grid-row: 1;
+  grid-column: 1/4;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+}
+
+.cell-2 {
+  margin-top: 20px;
+  text-align: center;
+  grid-row: 2;
+  grid-column: 1/4;
+  background-color: black;
+  color: white;
+}
+
+.button-container > a {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: lightgray;
+    margin: 15px;
+}
+
+.pathContainer {
+  display: grid;
+}

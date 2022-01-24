@@ -9,19 +9,16 @@
     <div class="grid-1">
       <div class="cell-1"> <!--navigation container-->
         <h1 id='projectTitle'>Path Finder</h1>
-        <div class="slidecontainer">
-          <input type="range" min="1" max="100" value="50" class="slider" id="myRange" onchange="newArray();">
-        </div>
-        <button type="Bubble" name="Bubble Sort" onclick="selectedSort();">Bubble Sort</button>
-        <button type="Quick" name="Quick Sort" onclick="selectedSort();">Quick Sort</button>
-        <button type="Insertion" name="Insertion Sort" onclick="selectedSort();">Insertion Sort</button>
-        <button type="Heap" name="Heap Sort" onclick="selectedSort();">Heap Sort</button>
+
       </div>
       <div class="cell-2"><!--container for sorting elements-->
+        <div id="container" class="pathContainer">
 
+        </div>
       </div>
     </div>
     <script type="text/javascript" src="js/switch.js"></script>
+    <script type="text/javascript" src="js/initializeGrid.js"></script>
 
   </body>
 </html>
